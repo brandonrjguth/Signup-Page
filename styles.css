@@ -1,27 +1,68 @@
 
-  * {
-    margin: 0;
-  }
-  
+* {
+margin: 0;
+}
 
-  html, body {
-    height: 100vh;
-  }
 
-  body {
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
-  }
+html, body {
+height: 100vh;
+}
 
-  img, picture, video, canvas, svg {
-    display: block;
-    max-width: 100%;
-  }
+body {
+line-height: 1.5;
+-webkit-font-smoothing: antialiased;
+display:flex;
+}
 
-  input, button, textarea, select {
-    font: inherit;
-  }
+img, picture, video, canvas, svg {
+display: block;
+max-width: 100%;
+}
 
-  p, h1, h2, h3, h4, h5, h6 {
-    overflow-wrap: break-word;
-  }
+input, button, textarea, select {
+font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+overflow-wrap: break-word;
+}
+
+.col{
+    display:flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+}
+
+.logo-col{
+    flex: 0 1 30%;
+}
+
+.logo-row{
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    position:relative;
+    top:30%;
+    
+}
+
+.signup-col{
+    flex: 0 1 70%;
+    justify-content: center;
+}
+
+.header{
+    flex: 0 1 30%;
+    justify-content: center;
+}
+
+.form{
+    flex-grow:1;
+}
+
+.login{
+    flex:0 1 30%;
+}
