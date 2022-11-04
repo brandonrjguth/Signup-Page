@@ -80,3 +80,9 @@ overflow-wrap: break-word;
 p{
     padding:.5rem;
 }
+
+form{
+    display:flex;
+    gap:3rem;
+    padding-top:1rem;
+}
