@@ -46,6 +46,16 @@ p, label, button{
     padding:.5rem 0rem;
 }
 
+button{
+    background-color: #2E4B45;
+    color: white;
+    box-shadow: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    border: none;
+}
+
 label{
     font-size: .8rem;
     text-transform: uppercase;
