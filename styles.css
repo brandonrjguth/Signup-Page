@@ -59,6 +59,11 @@ overflow-wrap: break-word;
     justify-content: center;
 }
 
+
+.header, .form, .login{
+    padding: 0 2rem 0 2rem;
+}
+
 .header{
     flex: 0 1 30%;
     justify-content: center;
@@ -70,4 +75,8 @@ overflow-wrap: break-word;
 
 .login{
     flex:0 1 30%;
+}
+
+p{
+    padding:.5rem;
 }
