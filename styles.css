@@ -28,14 +28,23 @@ overflow-wrap: break-word;
 }
 
 h1{
-    font-family: 'Oswald', sans-serif;
+    font-size: 5rem;
 }
 
-p, label, button, h2{
+h1, h2{
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+p, label, button{
     font-family: 'Montserrat', sans-serif;
     padding:.5rem;
 }
 
+label{
+    font-size: .8rem;
+    text-transform: uppercase;
+}
 
 .col{
     display:flex;
@@ -78,6 +87,8 @@ p, label, button, h2{
     flex: 0 1 30%;
     justify-content: center;
     background-color: #f7f7f7;
+    font-weight: 600;
+    font-size: 1.2rem;
 }
 
 .form{
