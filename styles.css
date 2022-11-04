@@ -27,6 +27,16 @@ p, h1, h2, h3, h4, h5, h6 {
 overflow-wrap: break-word;
 }
 
+h1{
+    font-family: 'Oswald', sans-serif;
+}
+
+p, label, button, h2{
+    font-family: 'Montserrat', sans-serif;
+    padding:.5rem;
+}
+
+
 .col{
     display:flex;
     flex-direction: column;
@@ -82,9 +92,6 @@ overflow-wrap: break-word;
     padding-top:1.5rem;
 }
 
-p{
-    padding:.5rem;
-}
 
 form{
     display:flex;
