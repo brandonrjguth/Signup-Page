@@ -33,20 +33,20 @@
         <div class="form col">
             <h2>Let's do this!</h2>
             <div class="row">
-                <form id="signup">
+                <form id="signup" onsubmit="return validatePass()">
                     <div class="col">
                         <label for="firstName">First Name</label>
-                        <input type="text" id="firstName" name="firstName">
+                        <input type="text" id="firstName" name="firstName" required>
                         <label for="email">Email</label>
-                        <input type="email" id="email" name="email">
+                        <input type="email" id="email" name="email" required>
                         <label for="password">Password</label>
-                        <input type="password" id="password" name="password">
+                        <input type="password" id="password" name="password" required>
                     </div>
                     <div class="col">
                         <label for="lastName">Last Name</label>
-                        <input type="text" id="lastName" name="lastName">
+                        <input type="text" id="lastName" name="lastName" required>
                         <label for="phoneNumber">Phone Number</label>
-                        <input type="tel" id="phoneNumber" name="phoneNumber">
+                        <input type="tel" id="phoneNumber" name="phoneNumber" required>
                         <label for="password">Confirm Password</label>
                         <input type="password" id="confirmPassword" name="confirmPassword">
                     </div>
