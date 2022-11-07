@@ -1,11 +1,6 @@
-
+/*Custom CSS Reset*/
 * {
 margin: 0;
-}
-
-
-html, body {
-height: 100vh;
 }
 
 body {
@@ -27,6 +22,16 @@ p, h1, h2, h3, h4, h5, h6 {
 overflow-wrap: break-word;
 }
 
+
+/*Default Element Styles*/
+html, body {
+    height: 100vh;
+    }
+
+h1, h2{
+    font-family: 'Oswald', sans-serif;
+}
+
 h1{
     font-size: 5rem;
 }
@@ -36,24 +41,9 @@ h2{
     font-weight: 300;
 }
 
-h1, h2{
-    font-family: 'Oswald', sans-serif;
-    
-}
-
 p, label, button{
     font-family: 'Montserrat', sans-serif;
     padding:.5rem 0rem;
-}
-
-button{
-    background-color: #2E4B45;
-    color: white;
-    box-shadow: none;
-    border-radius: 10px;
-    width: 250px;
-    height: 50px;
-    border: none;
 }
 
 label{
@@ -61,6 +51,12 @@ label{
     text-transform: uppercase;
 }
 
+input{
+    width:18rem;
+}
+
+
+/* Universal Classes*/
 .col{
     display:flex;
     flex-direction: column;
@@ -69,6 +65,9 @@ label{
 .row{
     display: flex;
 }
+
+
+/*Section Styling*/
 
 .logo-col{
     flex: 0 1 40%;
@@ -93,7 +92,6 @@ label{
     justify-content: center;
 }
 
-
 .header, .form, .login{
     padding: 0 2rem 0 2rem;
 }
@@ -116,19 +114,24 @@ label{
     padding-right:5rem;
 }
 
-.login{
-    background-color: #f7f7f7;
-    box-shadow: inset 0px 20px 4px -15px #dbdbdb;
-    padding: 2rem 2rem 3rem 3rem;
-}
-
-
 form{
     display:flex;
     flex-direction: column;
     padding-top:0.5rem;
 }
 
-input{
-    width:18rem;
+.login{
+    background-color: #f7f7f7;
+    box-shadow: inset 0px 20px 4px -15px #dbdbdb;
+    padding: 2rem 2rem 3rem 3rem;
+}
+
+button{
+    background-color: #2E4B45;
+    color: white;
+    box-shadow: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    border: none;
 }
