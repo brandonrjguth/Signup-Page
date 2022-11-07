@@ -46,13 +46,24 @@ p, label, button{
     padding:.5rem 0rem;
 }
 
+form p {
+    padding:0;
+}
+
 label{
     font-size: .8rem;
     text-transform: uppercase;
 }
 
 input{
-    width:18rem;
+    font-family: 'Montserrat', sans-serif;
+    border-radius:5px;
+    border: 1px solid #999999;
+}
+
+input:focus{
+    border:2px solid rgba(0, 0, 255, 0.678);
+    outline:none;
 }
 
 
@@ -64,6 +75,10 @@ input{
 
 .row{
     display: flex;
+}
+
+.hidden{
+    display:none;
 }
 
 
@@ -134,4 +149,9 @@ button{
     width: 250px;
     height: 50px;
     border: none;
+}
+
+.error{
+    font-size:.8rem;
+    color:red;
 }
