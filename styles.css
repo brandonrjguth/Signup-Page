@@ -112,6 +112,10 @@ label{
     padding: 0.75rem 2rem 1rem 3rem;
 }
 
+.form-col{
+    padding-right:5rem;
+}
+
 .login{
     background-color: #f7f7f7;
     box-shadow: inset 0px 20px 4px -15px #dbdbdb;
@@ -121,7 +125,7 @@ label{
 
 form{
     display:flex;
-    gap:5rem;
+    flex-direction: column;
     padding-top:0.5rem;
 }
 
